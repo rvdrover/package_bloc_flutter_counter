@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       home:  BlocProvider(
         create: (context) => CounterBloc(),
-        child: const MyHomePage(title: 'Flutter Vanilla Block Counter'),
+        child: const MyHomePage(title: 'Flutter Package Block Counter'),
       ),
     );
   }
